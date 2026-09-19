@@ -1,0 +1,93 @@
+﻿<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interaktivní procvičování slovíček z lekcí angličtiny, němčiny a češtiny.">
+  <title>Zkoušení slovíček</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="hero">
+      <div>
+        <h1>Zkoušení slovíček</h1>
+      </div>
+    </header>
+
+    <section id="lesson-view" class="panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Výběr lekce</p>
+          <h2>Co si dnes procvičíme?</h2>
+        </div>
+        <span id="lesson-count" class="count-badge"></span>
+      </div>
+      <label class="search-label" for="lesson-search">Hledat v lekcích</label>
+      <input id="lesson-search" class="search-input" type="search" placeholder="Číslo nebo téma lekce…" autocomplete="off">
+      <div id="lesson-list" class="lesson-list"></div>
+      <p id="empty-lessons" class="empty-state" hidden>Žádná lekce neodpovídá hledání.</p>
+    </section>
+
+    <section id="quiz-view" class="panel quiz-panel" hidden>
+      <div class="quiz-topbar">
+        <button id="back-button" class="text-button" type="button">← Zpět na lekce</button>
+      </div>
+      <div class="quiz-heading">
+        <div>
+          <h2 id="prompt-label">Přelož slovíčko</h2>
+        </div>
+        <div class="progress-wrap">
+          <span id="progress-text">1 / 1</span>
+          <div class="progress-track"><div id="progress-bar" class="progress-bar"></div></div>
+        </div>
+      </div>
+      <div class="quiz-options">
+        <label for="direction-select">Směr zkoušení</label>
+        <select id="direction-select">
+          <option value="primary">Primární</option>
+          <option value="reverse">Opačný</option>
+          <option value="mixed">Náhodný</option>
+        </select>
+        <button id="restart-button" class="secondary-button" type="button">Začít znovu</button>
+      </div>
+      <div id="question-card" class="question-card">
+        <p id="question-number" class="question-number"></p>
+        <p id="question" class="question"></p>
+        <form id="answer-form" novalidate>
+          <label for="answer" class="sr-only">Tvoje odpověď</label>
+          <input id="answer" class="answer-input" type="text" autocomplete="off" spellcheck="false" placeholder="Napiš odpověď…" autofocus>
+          <div class="answer-actions">
+            <button class="primary-button" type="submit">Zkontrolovat <span>Enter ↵</span></button>
+            <button id="hint-button" class="secondary-button" type="button">Ukázat odpověď (0/3)</button>
+          </div>
+        </form>
+        <div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div>
+      </div>
+      <div class="score-row" aria-label="Průběžné skóre">
+        <div><span class="score-dot correct"></span><span>Správně</span><strong id="correct-score">0</strong></div>
+        <div><span class="score-dot wrong"></span><span>Chyby</span><strong id="wrong-score">0</strong></div>
+      </div>
+    </section>
+
+    <section id="result-view" class="panel result-panel" hidden>
+      <div class="result-icon" aria-hidden="true">✓</div>
+      <p class="eyebrow">Lekce dokončena</p>
+      <h2 id="result-title">Skvělá práce!</h2>
+      <p id="result-summary" class="result-summary"></p>
+      <div class="result-stats">
+        <div><strong id="result-correct">0</strong><span>správně</span></div>
+        <div><strong id="result-errors">0</strong><span>chyb</span></div>
+        <div><strong id="result-percent">0 %</strong><span>úspěšnost</span></div>
+      </div>
+      <div class="result-actions">
+        <button id="retry-button" class="primary-button" type="button">Zopakovat lekci</button>
+        <button id="result-back-button" class="secondary-button" type="button">Vybrat jinou lekci</button>
+      </div>
+    </section>
+
+  </main>
+  <script src="lessons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
