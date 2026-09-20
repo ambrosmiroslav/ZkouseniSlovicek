@@ -3,7 +3,7 @@
   "lessons": [
     {
       "code": "512",
-      "title": "Němčina - strana 10",
+      "title": "Němčina 3 · rodina",
       "words": [
         ["bratr", "der Bruder"],
         ["bratranec", "der Cousin"],
@@ -17,6 +17,7 @@
         ["dcera", "die Tochter"],
         ["prarodiče (mn. č.)", "die Großeltern"],
         ["dítě", "das Kind"],
+        ["volný čas", "die Freizeit"],
         ["rozčilovat, lézt na nervy", "nerven, er nervt"],
         ["normální", "normal"],
         ["vidět, dívat se", "sehen, er sieht"],
