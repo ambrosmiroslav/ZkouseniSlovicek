@@ -2,6 +2,26 @@
 {
   "lessons": [
     {
+      "code": "513",
+      "title": "Němčina 3 · povolání",
+      "words": [
+        ["kancelář", "das Büro"],
+        ["láska", "die Liebe"],
+        ["problém", "das Problem"],
+        ["rozumět", "verstehen, er versteht"],
+        ["aktuální", "aktuell"],
+        ["všechno", "alles"],
+        ["práce", "die Arbeit"],
+        ["dostat, obdržet", "bekommen, er bekommt"],
+        ["povolání", "der Beruf"],
+        ["šéfka", "die Chefin"],
+        ["nakupovat", "ein|kaufen, er kauft ein"],
+        ["jet, jezdit", "fahren, er fährt"],
+        ["zaměstnání, brigáda", "der Job"],
+      ],
+      "visible": true
+    },
+    {
       "code": "512",
       "title": "Němčina 3 · rodina",
       "words": [
