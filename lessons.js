@@ -2,6 +2,37 @@
 {
   "lessons": [
     {
+      "code": "514",
+      "title": "Němčina 3 · materiály, oblečení",
+      "words": [
+        ["měď", "copper"],
+        ["bavlna", "cotton"],
+        ["kůže", "leather"],
+        ["polyester", "polyester"],
+        ["hedvábí", "silk"],
+        ["ocel", "steel"],
+        ["vlna", "wool"],
+        ["látka", "cloth"],
+        ["pohodlný", "comfortable"],
+        ["džínovina", "denim"],
+        ["obyčejný, běžný", "casual"],
+        ["tečkovaný", "dotted"],
+        ["s vysokými podpatky", "high-heeled"],
+        ["volný, plandavý", "baggy"],
+        ["kostkovaný, károvaný", "checked"],
+        ["do zvonu", "flared"],
+        ["bez podpatků", "flat"],
+        ["s dlouhým rukávem", "long-sleeved"],
+        ["volný", "loose"],
+        ["jednobarevný", "plain"],
+        ["špičatý, do špičky", "pointed"],
+        ["s krátkým rukávem", "short-sleeved"],
+        ["pruhovaný", "striped"],
+        ["úzký, upnutý, těsný", "tight"],
+      ],
+      "visible": true
+    },
+    {
       "code": "513",
       "title": "Němčina 3 · povolání",
       "words": [
