@@ -2,6 +2,48 @@
 {
   "lessons": [
     {
+      "code": "515",
+      "title": "Němčina 3 · povolání, domácí zvářata",
+      "words": [
+        ["plakát", "das Plakat"],
+        ["restaurace", "das Restaurant"],
+        ["volat", "rufen, er ruft"],
+        ["spát", "schlafen, er schläft"],
+        ["startovat, zahájit", "starten, er startet"],
+        ["stresující", "stressig"],
+        ["přes, o (předložka se 4. pádem)", "über"],
+        ["mýt, umývat", "waschen, er wäscht"]
+        ["Kolik?", "Wie viel?"],
+        ["víkend", "das Wochenende"],
+        ["pracovní doba", "die Arbeitszeit"],
+        ["lékařka", "die Ärztin"],
+        ["číšnice", "die Kellnerin"],
+        ["policistka", "die Polizistin"],
+        ["řidič taxi", "der Taxifahrer"],
+        ["prodavač", "der Verkäufer"],
+        ["lékař", "der Arzt"],
+        ["zlatá rybka (zool. karas stříbrný)", "der Goldfisch"],
+        ["křeček", "der Hamster"],
+        ["domácí zvíře", "das Haustier"],
+        ["pes", "der Hund"],
+        ["králík", "das Kaninchen"],
+        ["kočka", "die Katze"],
+        ["číšník", "der Kellner"],
+        ["kuchařka", "die Köchin"],
+        ["hlasitý", "laut"],
+        ["tichý, tiše", "leise"],
+        ["papoušek", "der Papagei"],
+        ["pacient", "der Patient"],
+        ["kůň", "das Pferd"],
+        ["místo", "der Platz"],
+        ["policista", "der Polizist"],
+        ["supermarket", "der Supermarkt"],
+        ["zvíře", "das Tier"],
+        ["prodavačka", "die Verkäuferin"],
+      ],
+      "visible": true
+    },
+    {
       "code": "514",
       "title": "Němčina 3 · materiály, oblečení",
       "words": [
